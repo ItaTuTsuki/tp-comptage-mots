@@ -22,3 +22,7 @@ Les notebooks sont prévus pour Linux (Google Colab, ou WSL sous Windows). Il su
 | grand (63 Mo) | 2,5 s | 4,5 s | 41 s | 3,0 s |
 
 Sur ces tailles, Python simple est le plus rapide. Hadoop paie un coût de démarrage d'environ 35 s par job, quelle que soit la taille du fichier, et Spark réduit fortement ce coût. Ces outils ne deviennent intéressants que pour des volumes trop gros pour une seule machine, répartis sur plusieurs machines.
+
+## Voir aussi
+
+- [tp-accidents-spark](https://github.com/ItaTuTsuki/tp-accidents-spark) : analyse des accidents de la route avec PySpark (RDD, DataFrames et Spark SQL).
